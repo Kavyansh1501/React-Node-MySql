@@ -1,0 +1,69 @@
+/* Full page */
+.page {
+    height: 100vh;
+    background-color: #f0f4ff;
+    position: relative;
+}
+
+/* 🔵 Slider Section */
+.slider {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.slider img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* 📝 Register Form (Bottom Right) */
+.container {
+    position: absolute;
+    bottom: 120px;
+    right: 180px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Heading */
+.container h2 {
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+/* Inputs */
+.container input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+.container button {
+    width: 100%;
+    padding: 10px;
+     margin: 4px 0;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #084298;
+}
+
+/* Error */
+.error {
+    color: red;
+    font-size: 13px;
+}
